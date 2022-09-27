@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html,body,#root{
+  @apply min-h-screen;
+
+}
+#root {
+  @apply min-h-screen flex flex-col;
+}
+main{
+  @apply mx-auto w-3/4 md:w-full h-full flex-1;
+}
